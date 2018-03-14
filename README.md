@@ -4,7 +4,7 @@ cordova plugin add https://github.com/FWiner/cordova-qdc-baidu-location --variab
 
 
 
-# Useage:
+# Usage:
 
 
     baidu_location.getCurrentPosition(
