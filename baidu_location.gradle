@@ -1,0 +1,10 @@
+android {
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+dependencies {
+    compile files('libs/BaiduLBS_Android.jar')
+}
