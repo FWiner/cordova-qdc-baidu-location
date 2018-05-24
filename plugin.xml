@@ -47,10 +47,10 @@
       <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="$API_KEY" />
     </config-file>
 
-    <source-file src="src/android/BaiduLocation.java" target-dir="app/src/com/qdc/plugins/baidu" />
-    <source-file src="libs/android/armeabi/liblocSDK6a.so" target-dir="app/libs/armeabi" />
-    <source-file src="libs/android/armeabi/liblocSDK6a.so" target-dir="app/libs/armeabi-v7a" />
-    <source-file src="libs/android/BaiduLBS_Android.jar" target-dir="app/libs" />
+    <source-file src="src/android/BaiduLocation.java" target-dir="src/com/qdc/plugins/baidu" />
+    <source-file src="libs/android/armeabi/liblocSDK6a.so" target-dir="libs/armeabi" />
+    <source-file src="libs/android/armeabi/liblocSDK6a.so" target-dir="libs/armeabi-v7a" />
+    <source-file src="libs/android/BaiduLBS_Android.jar" target-dir="libs" />
 	<framework src="baidu_location.gradle" custom="true" type="gradleReference"/>
   </platform>
 
